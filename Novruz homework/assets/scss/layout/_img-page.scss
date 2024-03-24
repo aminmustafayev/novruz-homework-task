@@ -1,0 +1,168 @@
+.slide{
+    .carousel-item{
+        overflow: hidden;
+    }
+}
+#carouselExampleIndicators{
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+   
+}
+.pato_place{
+    position: absolute;
+bottom: 150px;
+left: 30%;
+.h1_place{
+    color: white;
+    .welcome{
+        font-size: 60px;
+    }
+    .pato--h1{
+        font-size: 100px;
+    }
+}
+}
+.eat-img{
+    overflow: hidden;
+    .imgg_png{
+        width: 80%;
+        height: 400px;
+        border-radius: 10px;
+        // overflow: hidden;
+        transition: .3s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+.romantic_01{
+    width: 100%;    
+    height: 350px;
+    border-radius: 9px;
+    transition: .3s;
+    overflow: hidden;
+    &:hover{
+        transform: scale(1.1);
+    }
+
+}
+.div-menu{
+ overflow: hidden;
+    position: relative;
+    .btn{
+        background-color: rgba(255, 255, 255, 0.831);
+        padding: 3% 13%;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 10px;
+        position: absolute;
+        top: 45%;
+        left: 30%;   
+    }
+}
+.div-menu-2{
+    overflow: hidden;
+    position: relative;
+    .btn{
+        background-color: rgba(255, 255, 255, 0.831);
+        padding: 3% 13%;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 10px;
+        position: absolute;
+        top: 40%;
+        left: 30%;   
+    }
+}
+.div6{
+    overflow: hidden;
+    position: relative;
+    .btn{
+        background-color: rgba(255, 255, 255, 0.831);
+        padding: 2% 10%;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 10px;
+        position: absolute;
+        top: 35%;
+        left: 30%;   
+    }
+}
+.border_img{
+    overflow: hidden;
+    transition: .3s;
+            &:hover{
+                
+                transform: scale(1.1);
+            }
+        }
+.carousel-item{
+    position: relative;
+    .event{
+        align-items: center;
+        justify-content: center;  
+        text-align: center;     
+        .span{
+          color: $span-color;
+          font-size: $span-size;
+        }
+        .h1-all{
+            color: white;
+            font-size: $h1-size;
+            font-weight: $h1_weight;
+        }
+        position: absolute;
+        top: 20%;
+        right: 1%;
+    }
+}
+.wines_img{
+    .event_01png{
+        width:100%;
+        height:100%;
+    }
+}
+.wines_during{
+    text-align: center;
+    .h4-all{
+        color: black;
+        font-size: $h4-size;
+    }
+    .p-all{
+        color:black;
+        font-size: $p_all-size;
+    }
+}
+.blog_month{
+    .blog_img01{
+        width: 100%;    
+    height: 250px;
+    border-radius: 9px;
+    transition: .3s;
+    overflow: hidden;
+    &:hover{
+        transform: scale(1.1);
+    } 
+    }
+    .h4-size{
+        transition: .3s linear;
+        &:hover{
+            color: red;
+        }
+    }
+    .all-a{
+        text-decoration: none;
+        color: black;
+        transition: .3s linear;
+        &:hover{
+            color: red;
+        }
+    }
+}
+
+

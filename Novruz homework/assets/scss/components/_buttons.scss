@@ -1,0 +1,12 @@
+*{.btn{
+    border: 1px solid white;
+    background-color: white;
+    color: red;
+    transition: .3s linear;
+    &:hover{
+        background-color: red;
+        color: white;
+    }
+
+}
+}
