@@ -40,8 +40,8 @@ header .container .col-9 i:hover {
 
 .pato_place {
   position: absolute;
-  bottom: 150px;
-  left: 30%;
+  bottom: 30%;
+  left: 23%;
 }
 .pato_place .h1_place {
   color: white;
@@ -439,6 +439,53 @@ header .container .col-9 i:hover {
 #menu .menu-h2 .all-h2 {
   font-size: 50px;
   font-weight: 700;
+}
+
+#prices {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+}
+#prices .all-h3 {
+  font-size: 24px;
+}
+#prices .all-a {
+  text-decoration: none;
+  color: lightslategray;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s linear;
+}
+#prices .all-a:hover {
+  color: red;
+}
+#prices .a-alt {
+  color: lightslategray;
+  text-decoration: none;
+}
+#prices .prices {
+  margin-top: 60px;
+  justify-content: center;
+}
+
+#lunch .discover_img {
+  background-image: url(https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg.webp);
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  position: relative;
+}
+#lunch .discover_img .h1_color-size {
+  font-weight: 800;
+  position: absolute;
+  top: 48%;
+  left: 42%;
 }
 
 #footer {
