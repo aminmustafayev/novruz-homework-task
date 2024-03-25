@@ -1,11 +1,12 @@
-@import './layout/header';
+@import 'vendors/bootstrap';
 @import './utils/variables';
+@import './layout/header';
 @import './layout/img-page';    
 @import './components/buttons';
 @import './layout/grid';
-@import './layout/main';
 @import './pages/home';
-
+@import './pages/menu';
+@import 'layout/footer';
 
 
 
