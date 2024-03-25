@@ -481,6 +481,31 @@ header {
 #footer .footer-div3 .footer-img .footer-img-one:hover {
   background-color: rgba(255, 0, 0, 0.301);
 }
+#footer .end-footer {
+  width: 100%;
+  height: 15%;
+  background-color: black;
+}
+#footer .end-footer .end-div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .end-footer .end-div .fa-brands {
+  transition: 0.3s linear;
+}
+#footer .end-footer .end-div .fa-brands:hover {
+  color: red;
+}
+#footer .end-footer .end-div .all-a {
+  text-decoration: none;
+  color: lightslategrey;
+  transition: 0.3s linear;
+}
+#footer .end-footer .end-div .all-a:hover {
+  color: red;
+}
 
 span {
   font-family: Courgette;

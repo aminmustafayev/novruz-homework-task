@@ -54,4 +54,30 @@
     }
         }
     }
+    .end-footer{
+        width: 100%;
+        height: 15%;    
+        background-color: black;
+        .end-div{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .fa-brands{
+                transition: .3s linear;
+                &:hover{
+                    color: red;
+                }
+            }
+            .all-a{
+                text-decoration: none;
+                color: lightslategrey;
+                transition: .3s linear;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+
 }
