@@ -62,3 +62,30 @@
     }
     }
 }
+#sed-varius{
+    .sed-varius-menu{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .all-a{
+        text-decoration: none;
+       color: black;
+        transition: .3s linear;
+        &:hover{
+            color: red;
+        }
+    }
+    .small-img{
+        width: 20%;
+        height: 15%;
+       
+        overflow: hidden;
+        transition: .3s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

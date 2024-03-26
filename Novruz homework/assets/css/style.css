@@ -488,6 +488,31 @@ header .container .col-9 i:hover {
   left: 42%;
 }
 
+#sed-varius .sed-varius-menu {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#sed-varius .all-a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s linear;
+}
+#sed-varius .all-a:hover {
+  color: red;
+}
+#sed-varius .small-img {
+  width: 20%;
+  height: 15%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+#sed-varius .small-img:hover {
+  transform: scale(1.1);
+}
+
 #footer {
   width: 100%;
   height: 70vh;
